@@ -1,0 +1,19 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:22] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Emulator config file set to C:\Temp\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWeb\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] DiagnosticsStoreRootPath set to: C:\Users\ososh\AppData\Local\dftmp\Resources\1b99afdc-5318-4193-b4a8-c44519c566e6
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Loading config file: C:\Temp\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWeb\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Config file to read: C:\Temp\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWeb\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Emulator config file set to C:\Temp\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWeb\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:17:23] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:18:34] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [25.02.2016 10:18:34] DiagnosticPlugin exited with code 0

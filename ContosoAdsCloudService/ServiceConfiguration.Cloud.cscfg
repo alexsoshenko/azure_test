@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ContosoAdsCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="ContosoAdsWeb">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=tcsrv;AccountKey=zRmpn61G7B0gTR/WlLoWhuelR+FsGRShIDQbjgki+F4SzoK1eyAMyNrM1lB6ThO+Qr6yAPsnZ5QlNQO246/wjA==" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="alexs" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEFCCxlLmiyy2Sf1j1Fxv0gYwDQYJKoZIhvcNAQEBBQAEggEAVpzsoJNactbdMFj8Tzscm+XExdQPFKSdJzA9Fo55ErbHjxJgMTuoCUQKt0UzQCKdZvGUiKJ3ukESVBw8iLxiEabA071YSxRDXhN4P4G7qAypkIl4WsfDnqU9Kgs3yLiCHTTNOOGKhXVnEfS7ruh2ink2dkP06bdHxRaLi/F+FI/IDICXtBLECCzMsfpgGYh9wmFWrC28AX3riN7pKjRcLolDEf+dcGOri6gOuQxz8x4qLPcD0e7EtTSvGTos8coxA9IGeo2nfksJWiI6d11mFphyWTwxLFyAcUZhLYfVtNJfusDp4BPh71q8yCyFkYPxDiQ/Hbuz25fGfz7TZpDOSjAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECPHBiT6+BisMgBAVHQ+EWbdoSSHb6Q+fEh51" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-02-25T23:59:59.0000000+02:00" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="65AC92D71D62752A4D5F054F6269C6EF8BD0AE69" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+  <Role name="ContosoAdsWorker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=tcsrv;AccountKey=zRmpn61G7B0gTR/WlLoWhuelR+FsGRShIDQbjgki+F4SzoK1eyAMyNrM1lB6ThO+Qr6yAPsnZ5QlNQO246/wjA==" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="ContosoAdsDbConnectionString" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=ContosoAds; Integrated Security=True; MultipleActiveResultSets=True;" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="alexs" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEFCCxlLmiyy2Sf1j1Fxv0gYwDQYJKoZIhvcNAQEBBQAEggEAVpzsoJNactbdMFj8Tzscm+XExdQPFKSdJzA9Fo55ErbHjxJgMTuoCUQKt0UzQCKdZvGUiKJ3ukESVBw8iLxiEabA071YSxRDXhN4P4G7qAypkIl4WsfDnqU9Kgs3yLiCHTTNOOGKhXVnEfS7ruh2ink2dkP06bdHxRaLi/F+FI/IDICXtBLECCzMsfpgGYh9wmFWrC28AX3riN7pKjRcLolDEf+dcGOri6gOuQxz8x4qLPcD0e7EtTSvGTos8coxA9IGeo2nfksJWiI6d11mFphyWTwxLFyAcUZhLYfVtNJfusDp4BPh71q8yCyFkYPxDiQ/Hbuz25fGfz7TZpDOSjAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECPHBiT6+BisMgBAVHQ+EWbdoSSHb6Q+fEh51" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-02-25T23:59:59.0000000+02:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="65AC92D71D62752A4D5F054F6269C6EF8BD0AE69" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
